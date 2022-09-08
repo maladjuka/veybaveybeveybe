@@ -350,6 +350,15 @@ line-height: 177.9%;
     justify-content: space-around;
     align-items: center;
 }
+.progress{
+    width: 100%;
+    height: 560px;
+    background-color: var(--violet);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .progress-bar{
     width: 100%;
@@ -393,6 +402,14 @@ font-weight: 400;
 font-size: 18px;
 text-align: center;
 }
+.progress-num span{
+    color: grey;
+}
+
+.progress-num span{
+    color: grey;
+}
+
 .progress-num span{
     color: grey;
 }
@@ -776,7 +793,7 @@ h1{
 .counter{
    
 
-
+overflow: hidden;
 position: absolute;
 width: 394px;
 height: 223px;
@@ -789,28 +806,48 @@ border-radius: 20px;
     .counter-container div{
         width: 70px;
         height: 120px;
+        overflow: hidden;
       
     }
 .countdown{font-size: 36px;
 }
 h2{font-size: 12px;
+    
 }
+h6{
+    overflow: hidden;
 
+}
+.counter-container{
+    overflow: hidden;
+
+}
 .rectangle615{
     display: none;
 }
 
 .bar{
-    width: 120px;
+    width: 165px;
 height: 200px;
 
 
+
 }
+.page-banner button{
+    bottom: -5%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+}
+
 .progress-num{
-    font-size: 24px;
+    width: 100%;
+    font-size: 16px;
 }
 .progress-desc{
-    font-size: 16px;
+    font-size: 12px;
 }
 .tag{
     height: 1240px;
@@ -827,7 +864,14 @@ height: 200px;
     font-size: 16px;
 }
 #tag-img{
+    overflow: hidden;
     src: url(/img/Group\ 674.png);
+}
+h4{
+    overflow: hidden;
+}
+h5{
+    overflow: hidden;
 }
 h3{
     width: 70%;
@@ -898,6 +942,7 @@ margin-left: -8%;
 
     footer{
         width: 820px;
+        height: 1100px;
         flex-direction: column;
         font-size: 16px;
 
@@ -957,8 +1002,8 @@ border: 20px solid #F9F9F9;
     .rectangle{
         position: absolute;
         width: 15rem;
-        height: 48.55rem;
-        top: 10%;
+        height: 46.55rem;
+        top: 9%;
         z-index: 1;
     }  
     
@@ -967,6 +1012,10 @@ border: 20px solid #F9F9F9;
         width: 250px;
 
 
+    }
+    .page-banner button{
+        width: 10rem;
+        height: 2rem;
     }
     .counter{
    
@@ -986,9 +1035,14 @@ height: 159px;
         h6{
            
             overflow: hidden;
+            font-size: 12px;
+
         }
         .counter-container{
             overflow: hidden;
+        }
+        .banner-par{
+            font-size: 14px;
         }
         
             .counter-container div{
@@ -1002,9 +1056,7 @@ height: 159px;
             overflow: hidden;
 
         }
-        h6{
-            font-size: 12px;
-        }
+        
     
         .progress-bar{
             height: 70%;
@@ -1013,7 +1065,7 @@ height: 159px;
             align-items: center;
         }
     .bar{
-        width: 134px;
+        width: 120px;
 height: 157px;
     }
     .icon{
@@ -1071,8 +1123,12 @@ ul{
 h4{
     font-size: 18px;
 }
+.consultations-wrapper{
+    width: 70%;
+}
 .cons{
-padding: 15%;    width: 281px;
+padding: 15%;    width: 320px;
+font-size: 18px;
 height: 295px;
 }
 .faq{height: 1019px;
@@ -1083,8 +1139,9 @@ height: 295px;
     overflow: hidden;
 
 }
-#dropdownq{
-    src: url(/img/chevron-down-m.png);
+.dropdownq{
+width: 10px;
+height: 10px;
 }
 footer{
     width: 100%;
@@ -1126,12 +1183,11 @@ width: 100vw;
     }
 }
 @media (max-width: 786px) {
-    *{
+    body{
         overflow-x: hidden;
     }
     .rectangle{
-        top: 10%;
-        height: 48.62rem;
+        height: 48.9rem;
     }
     .progress-bar{
         height: 70%;
@@ -1139,6 +1195,9 @@ width: 100vw;
         justify-content: space-between;
         align-items: center;
         
+    }
+    .page-banner button{
+        bottom: -30%;
     }
 
     footer{
@@ -1159,7 +1218,10 @@ width: 100vw;
    
 }
 
-@media (min-width:390px) {
+@media (max-width:390px) {
+    body{
+        overflow-x: hidden;
+    }
     .bar{
         width: 120px;
         height: 100px;
