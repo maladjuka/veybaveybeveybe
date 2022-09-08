@@ -1134,10 +1134,12 @@ width: 100vw;
         height: 48.62rem;
     }
     .progress-bar{
-        height: 70%;
+        height: 100%;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+                overflow: hidden;
+
         
     }
 
@@ -1156,6 +1158,14 @@ width: 100vw;
     .progress-desc{
         font-size: 12px;
     }
+     .cons{
+          width: 350px;
+        height: 350px;
+        overflow: hidden;
+        }
+        h4{
+            overflow: hidden;
+        }
    
 }
 
