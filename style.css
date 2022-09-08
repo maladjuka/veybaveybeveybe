@@ -1159,6 +1159,38 @@ width: 100vw;
    
 }
 
+@media (min-width:390px) {
+    .bar{
+        width: 120px;
+        height: 100px;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+    }
+    .progress-bar{
+        height: 70%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .page-banner button{
+        width: 15rem;
+        height: 2rem;
+    }
+    .progress-num{
+        font-size: 12px;
+    }
+    .progress-desc{
+        font-size: 10px;
+        padding-bottom: 5%;
+        overflow: hidden;
+    }
+
+    
+}
+
 /*@media (max-width: 800p) {
     .main-navigation{
         display: none;
