@@ -881,7 +881,7 @@ text-align: left;
     height: 1100px;
 }
 #together-res-img{
-    width: 1034px;
+    width: 64.625rem;
     height: 544px;
 background-image: url(/img/cXkT94Zs\ 1.png);
 background-size: cover;
@@ -1125,7 +1125,39 @@ width: 100vw;
         left: 5%;
     }
 }
+@media (max-width: 786px) {
+    *{
+        overflow-x: hidden;
+    }
+    .rectangle{
+        top: 10%;
+        height: 48.62rem;
+    }
+    .progress-bar{
+        height: 70%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
 
+    footer{
+        height: 1100px;
+    }
+    .icon{
+        width: 36px;
+        height: 36px;
+        overflow: hidden;
+    } 
+    .progress-num{
+        font-size: 24px;
+        width: auto;
+    }
+    .progress-desc{
+        font-size: 12px;
+    }
+   
+}
 
 /*@media (max-width: 800p) {
     .main-navigation{
